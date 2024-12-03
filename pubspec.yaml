@@ -1,0 +1,89 @@
+name: build_n_trade
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^3.0.0
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image1.jpeg
+    - assets/image2.jpeg
+    - assets/image3.jpeg
+    - assets/image_world.jpeg
+    - textures/texture1.jpeg
+    - textures/texture2.jpeg
+    - textures/texture3.jpeg
+    - textures/texture4.jpeg
+    - textures/texture5.jpeg
+    - textures/texture6.jpeg
+    - textures/texture7.jpeg
+    - textures/texture8.jpeg
+    - textures/texture9.jpeg
+    - textures/texture10.jpeg
+    - textures/texture11.jpeg
+    - textures/texture12.jpeg
+    - textures/texture13.jpeg
+    - textures/texture14.jpeg
+    - textures/texture15.jpeg
+    - textures/texture16.jpeg
+    - elements/element1.jpeg
+    - elements/element2.jpeg
+    - elements/element3.jpeg
+    - elements/element4.jpeg
+    - elements/element5.jpeg
+    - elements/element6.jpeg
+    - elements/element7.jpeg
+    - elements/element8.jpeg
+    - views/view1.jpeg
+    - views/view2.jpeg
+    - views/view3.jpeg
